@@ -12,5 +12,5 @@ def Guess(x):
 
     print(f"Right number: {random_number}")
 
-Guess(10)
+Guess(15)
 
