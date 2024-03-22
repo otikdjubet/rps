@@ -26,7 +26,7 @@ def hangman():
         # ' '.join(['a', 'b', 'cd']) --> 'a b cd'
         print('You have', lives, 'lives left and you have used these letters: ', ' '.join(used_letters))
 
-        # what current word is (ie W - R D)
+        # what current word is (ie W - R  D)
         word_list = [letter if letter in used_letters else '-' for letter in word]
         print(lives_visual_dict[lives])
         print('Current word: ', ' '.join(word_list))
